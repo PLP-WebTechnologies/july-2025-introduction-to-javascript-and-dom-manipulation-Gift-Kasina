@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌟 JavaScript Basics Demo</h1>
+            <p>Interactive Personal Profile & Task Manager</p>
+        </header>
+
+        <!-- Part 1: Variables, Data Types, Conditionals -->
+        <section class="section">
+            <h2>📝 Part 1: Personal Info</h2>
+            <div class="form-group">
+                <label for="nameInput">Your Name:</label>
+                <input type="text" id="nameInput" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="ageInput">Your Age:</label>
+                <input type="number" id="ageInput" placeholder="Enter your age">
+            </div>
+            <button id="submitInfo" class="btn">Submit Info</button>
+            <div id="personalInfo" class="result-box"></div>
+        </section>
+
+        <!-- Part 2: Functions -->
+        <section class="section">
+            <h2>🧮 Part 2: Calculator Functions</h2>
+            <div class="form-group">
+                <label for="num1">Number 1:</label>
+                <input type="number" id="num1" placeholder="Enter first number">
+            </div>
+            <div class="form-group">
+                <label for="num2">Number 2:</label>
+                <input type="number" id="num2" placeholder="Enter second number">
+            </div>
+            <div class="button-group">
+                <button id="addBtn" class="btn">Add</button>
+                <button id="multiplyBtn" class="btn">Multiply</button>
+                <button id="formatBtn" class="btn">Format Result</button>
+            </div>
+            <div id="calculatorResult" class="result-box"></div>
+        </section>
+
+        <!-- Part 3: Loops -->
+        <section class="section">
+            <h2>🔢 Part 3: Loop Examples</h2>
+            <div class="button-group">
+                <button id="countdownBtn" class="btn">Start Countdown</button>
+                <button id="listBtn" class="btn">Generate List</button>
+            </div>
+            <div id="loopResults" class="result-box"></div>
+        </section>
+
+        <!-- Part 4: DOM Manipulation -->
+        <section class="section">
+            <h2>🎨 Part 4: Interactive Elements</h2>
+            <div class="button-group">
+                <button id="toggleBtn" class="btn">Toggle Theme</button>
+                <button id="addTaskBtn" class="btn">Add Task</button>
+                <button id="hideShowBtn" class="btn">Hide/Show Tasks</button>
+            </div>
+            <div id="taskContainer">
+                <h3>📋 Task List</h3>
+                <ul id="taskList"></ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>JavaScript Basics Project - Learning Variables, Functions, Loops & DOM</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
